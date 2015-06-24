@@ -1,0 +1,34 @@
+DATA
+
+-------------
+Fundamental types
+
+    bool aBool;
+    char aChar;
+    unsigned char aUnsignedChar;
+
+    int aInt;
+    unsigned int aUnsignedInt;
+    short aShort;
+    unsigned short aUnsignedShort;
+    short int aShortInt;
+    unsigned short int aUnsignedShortInt;
+
+    long aLong;
+    long int aLongInt;
+    long long int aLongLongInt;
+    unsigned long aUnsigned;
+    unsigned long int aUnsignedLongInt;
+    unsigned long long int aUnsignedLongLongInt;
+
+    float aFloat;
+
+    double aDouble;
+    long double aLongDouble;
+---------------
+user Types:
+    TestClass testClassField;
+    TestStruct testStructField;
+    TestUnion testUnionField;
+
+    std::shared_ptr<TestClass> p1;
